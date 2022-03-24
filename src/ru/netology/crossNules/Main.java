@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your field");
         String input = scanner.nextLine();
         System.out.println("---------");
         System.out.println("| " + input.charAt(0) + " " + input.charAt(1) + " " + input.charAt(2) + " |");
